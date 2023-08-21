@@ -1,0 +1,29 @@
+@keyframes leftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-leftToRight {
+  animation: leftToRight 20s infinite linear;
+}
+
+.animate-rightToLeft {
+  animation: rightToLeft 20s 2s infinite linear;
+}
+
+.img-shadow {
+  box-shadow: 5px 5px 5px #1ab79d;
+}
